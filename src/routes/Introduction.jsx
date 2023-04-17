@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CategoryFilter from '../components/Introduction/CategoryFilter';
-import Navigation from '../components/Nav/Nav';
 import styled from 'styled-components';
 const CTAButton = styled.button`
   background-color: #ffd98e;
@@ -30,7 +29,7 @@ const IntrodcutionWrapper = styled.div`
   @media (max-width: 1200px) {
     margin-bottom: 60px;
   }
-`
+`;
 
 const Introduction = () => {
   const handleOnClick = () => {
