@@ -9,7 +9,6 @@ import TimeTable from '../components/Booth/TimeTable';
 import { SelectSection } from '../components/Booth/BoothStyled';
 import { dbService } from '../fbase';
 import { collection, onSnapshot, query } from 'firebase/firestore';
-// import Cursor from '../assets/images/'
 
 // Props Styled-----------------------------------------------------------
 const DateSection = styled.section`

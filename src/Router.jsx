@@ -1,16 +1,14 @@
-import { BrowserRouter, Outlet, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './routes/About';
 import Booth from './routes/Booth';
 import Main from './routes/Main';
-import Home from './routes/Home';
-import Auth from './routes/Auth';
 import ClubDetail from './routes/ClubDetail';
 import Introduction from './routes/Introduction';
 import { LinkContext } from './context/LinkContext';
 import { useState } from 'react';
 import Nav from './components/Nav/Nav';
 
-function Router({ isLoggedIn, userObj }) {
+function Router() {
   const [idParams, setIdParams] = useState(0);
   return (
     <BrowserRouter>

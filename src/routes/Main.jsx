@@ -14,7 +14,6 @@ import kim from '../assets/images/Main/c.svg';
 import go from '../assets/images/Main/e.svg';
 import test from '../assets/images/Main/test.svg';
 import mainLogo from '../assets/images/Main/mainPage_logo.svg';
-import bottomLogo from '../assets/images/Main/logo.svg';
 import { useNavigate } from 'react-router-dom';
 
 const Header = styled.header`
@@ -44,8 +43,8 @@ const titleAnimation = keyframes`
 const Title = styled.div`
   margin-top: -22vh;
   text-align: center;
-  img{
-    scale : 0.9;
+  img {
+    scale: 0.9;
   }
   h1 {
     font-size: 4rem;
@@ -243,7 +242,7 @@ const Main = () => {
     <>
       <Header>
         <Title>
-          <img src={mainLogo}/>
+          <img src={mainLogo} />
           <h4>2023 동국대학교</h4>
           <h1>동아리 박람회</h1>
           <h6>톺아보기</h6>
